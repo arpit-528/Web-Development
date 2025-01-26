@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.cards{
+    height: 300px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#card1 {
+    object-fit: cover;
+    overflow: hidden;
+    height: 300px;
+   width: 230px;
+   z-index: 1;
+}
+#card1 img{
+   object-fit: cover;
+   overflow: hidden;
+   height: 300px;
+   width: 230px;
+}
+#card2{
+    object-fit: cover;
+   overflow: hidden;
+   rotate: -7deg;
+   height: 300px;
+   width: 230px;
+   z-index: 2;
+}
+#card2 img {
+    height: 300px;
+   width: 230px;
+}
+#card3{
+    object-fit: cover;
+   overflow: hidden;
+   rotate: -14deg;
+   height: 300px;
+   width: 230px;
+   z-index: 3;
+}
+#card3 img {
+    height: 300px;
+   width: 230px;
+}
+#card4{
+    object-fit: cover;
+   overflow: hidden;
+   rotate: -21deg;
+   height: 300px;
+   width: 230px;
+   z-index: 4;
+}
+#card4 img {
+    height: 300px;
+   width: 230px;
+}
+#card2:hover{
+    z-index: 5;
+}
+#card3:hover{
+    z-index: 5;
+}
+#card4:hover{
+    z-index: 5;
+}
+#card1:hover{
+    z-index: 5;
+}
